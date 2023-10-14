@@ -1,0 +1,159 @@
+#homepage-content {
+  min-height: 650px;
+  height: 650px;
+  position: relative;
+}
+
+#dashboard-content {
+  padding: 3rem;
+  height: calc(100% - 150px);
+}
+
+.jumbotron-container {
+  height: 100%;
+  position: relative;
+}
+
+.jumbotron-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.jumbotron-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.jumbotron-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 5.5rem;
+}
+
+.jumbotron-content h1 {
+  color: #E9ECEF;
+}
+
+.jumbotron-content h4 {
+  color: #ADB5BD;
+}
+
+.jumbotron-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.custom-italic {
+  font-size: 1.35rem;
+}
+
+.menu-button-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 15px;
+}
+
+.custom-card-homepage {
+  width: 100%;
+  max-width: 180px;
+  padding: 1rem !important;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-card-homepage img{
+  max-width: 100px;
+}
+
+.custom-card-homepage p{
+  word-break: break-all;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+.dynamic-content h2 {
+  font-weight: bold;
+}
+
+.dynamic-content p {
+  font-size: 16px;
+}
+
+.dynamic-content-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dynamic-content-image img {
+  max-height: 250px;
+}
+
+.min-width-70 {
+  min-width: 70px;
+}
+
+.height-auto {
+  height: auto;
+}
+
+.header-homepage-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 991px) {
+  .header-homepage-desktop {
+    display: none;
+  }
+
+  .header-homepage-mobile {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .jumbotron-content {
+    padding: 3rem;
+  }
+
+  .menu-button-container {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #homepage-content {
+    height: 750px;
+  }
+
+  .jumbotron-content {
+    padding: 1rem;
+  }
+
+  .jumbotron-menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .jumbotron-menu .btn-success {
+    margin-left: 0 !important;
+    margin-top: 10px;
+  }
+}

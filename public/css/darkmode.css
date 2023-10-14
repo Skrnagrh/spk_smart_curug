@@ -1,0 +1,229 @@
+
+/* Mode Terang (default) */
+.navbar {
+    background-color: #ffffff;
+}
+
+.dark-mode .navbar {
+    /* Mode Gelap */
+    background-color: #000;
+}
+.bi-list {
+    color: #000000;
+}
+
+.dark-mode .bi-list {
+    /* Mode Gelap */
+    color: #ffffff;
+}
+.modal-content {
+    background-color: #ffffff;
+}
+
+.dark-mode .modal-content {
+    /* Mode Gelap */
+    background-color: #000;
+}
+.text-kotak {
+    color: #000000;
+}
+
+.dark-mode .text-kotak {
+    /* Mode Gelap */
+    color: #ffffff;
+}
+
+.theme-icon-active {
+    font-size: 20px;
+    color: #000;
+}
+
+.theme-icon-active[data-theme-icon-active="bi-moon-stars-fill"] {
+    color: #fff;
+}
+
+
+.round-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.toggle-icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #000000;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.dark-mode .toggle-icon {
+    transform: translateX(20px);
+    background-color: #ffffff;
+}
+
+.dark-mode .round-button {
+    background-color: #888888;
+}
+
+.dark-mode {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+.dark-mode .tabel-responsiv {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+.dark-mode .tabel-responsiv table.table-bordered {
+    color: #ffffff;
+}
+
+.dark-mode .tabel-responsiv table.table-striped {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.dark-mode .tabel-responsiv table.table-bordered {
+    color: #ffffff;
+}
+
+.dark-mode .table {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+.dark-mode .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #ffffffad;
+    color: #ffffff;
+}
+
+.dark-mode .table-hover tbody tr:hover {
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+.dark-mode .tabel-responsiv {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+.dark-mode .tabel-responsiv table.table-bordered {
+    color: #ffffff;
+}
+
+.dark-mode .table {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+.dark-mode .table-striped {
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+.dark-mode .table-striped,
+.dark-mode .table-hover {
+    background-color: transparent !important;
+    color: #ffffff;
+}
+
+.dark-mode input,
+.dark-mode select,
+.dark-mode .btn {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+.dark-mode .card {
+    background-color: #111111;
+}
+
+.dark-mode .card-icon.rounded-circle {
+    background-color: #1f1f1f;
+}
+
+.dark-mode .card-icon.sales-card {
+    background-color: #1f1f1f;
+}
+
+.dark-mode .card .card-title {
+    color: #ffffff;
+}
+
+.dark-mode h1 {
+    color: #ffffff;
+}
+
+.dark-mode .sidebar {
+    background-color: #111111;
+}
+
+.dark-mode .back-to-top {
+    background-color: #111111;
+}
+
+/* Warna latar belakang sidebar yang lebih gelap */
+.dark-mode .sidebar-nav {
+    background-color: #111111;
+}
+
+.dark-mode .sidebar-nav .nav-link {
+    color: #ffffff;
+}
+
+.dark-mode .sidebar-nav .bi {
+    color: #ffffff;
+}
+
+.dark-mode .modal-dialog {
+    background-color: #111111;
+}
+
+.dark-mode .header {
+    background-color: #111111;
+}
+
+.dark-mode .header .dropdown-menu.dropdown-menu-end.dropdown-menu-arrow.profile {
+    background-color: #111111;
+}
+
+.dark-mode .header a,
+.dark-mode .header span,
+.dark-mode .header button {
+    color: #ffffff;
+}
+
+.header a:hover,
+.header span:hover,
+.dark-mode .header a:hover,
+.dark-mode .header span:hover,
+.dark-mode .header button:hover {
+    color: #000000;
+}
+
+.dark-mode .header.dropdown-toggle:hover {
+    color: #ffffff;
+}
+
+.dark-mode .header .toggle-sidebar-btn {
+    color: #ffffff;
+}
+
+.dark-mode .sidebar-nav .nav-item .nav-link {
+    background-color: #111111;
+}
+
+.dark-mode .sidebar-nav .nav-item .nav-link.active {
+    background-color: #505050;
+    color: #cccccc;
+}
