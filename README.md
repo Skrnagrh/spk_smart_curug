@@ -6,15 +6,15 @@ Sistem Pendukung Keputusan (SPK) ini adalah aplikasi berbasis web yang dikembang
 
 ### Halaman Homepage
 
-![Halaman Homepage](https://github.com/Skrnagrh/spk_smart_curug/raw/main/public/1.tampilan/1.PNG)
+![Halaman Homepage](https://github.com/Skrnagrh/spk_smart_curug/raw/main/public/1.tampilan/1.png)
 
 ### Halaman Login
 
-![Halaman Login](https://github.com/Skrnagrh/spk_smart_curug/raw/main/public/1.tampilan/2.PNG)
+![Halaman Login](https://github.com/Skrnagrh/spk_smart_curug/raw/main/public/1.tampilan/2.png)
 
 ### Halaman Prangkingan
 
-![Halaman Dashboard](https://github.com/Skrnagrh/spk_smart_curug/raw/main/public/1.tampilan/3.PNG)
+![Halaman Dashboard](https://github.com/Skrnagrh/spk_smart_curug/raw/main/public/1.tampilan/3.png)
 
 ## Fitur
 
