@@ -1,4 +1,4 @@
-# Sistem Pendukung Keputusan Pemilihan Objek Wisata Alam Air Terjun Menggunakan Metode Simple Multi Attribute Ratting Technique (SMART)
+# Sistem Pendukung Keputusan Pemilihan Objek Wisata Alam Air Terjun Menggunakan Metode Simple Multi Attribute Rating Technique (SMART)
 
 Sistem Pendukung Keputusan (SPK) ini adalah aplikasi berbasis web yang dikembangkan menggunakan Laravel untuk membantu dalam pemilihan objek wisata alam air terjun menggunakan Metode Simple Multi Attribute Rating Technique (SMART).
 
